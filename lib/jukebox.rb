@@ -31,6 +31,7 @@ end
 
 def list(songs)
   songs.each_with_index {|song, index| puts "#{index + 1}. #{song}"}
+  binding.pry
 end
 
 def play(songs)
@@ -38,9 +39,7 @@ def play(songs)
   user_response = gets.strip
   
   if user_response == list(song) || list(index)
-   
     puts "Playing #{song}"
-     binding.pry
   else
     puts "Invalid input, please try again"
   end
