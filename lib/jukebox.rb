@@ -30,3 +30,10 @@ end
 def list(songs)
   songs.each_with_index {|song, index| puts "#{index + 1}. #{song}"}
 end
+
+def play(songs)
+  puts "Please enter a song name or number:"
+  user_response = gets.strip
+  if user_response == list
+  
+end
