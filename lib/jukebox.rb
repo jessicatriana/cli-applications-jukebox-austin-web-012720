@@ -28,5 +28,5 @@ def help
 end
 
 def list(songs)
-  
+  puts songs.each_with_index
 end
