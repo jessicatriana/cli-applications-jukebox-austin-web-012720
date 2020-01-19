@@ -7,6 +7,8 @@
 
 # puts say_hello(users_name)
 
+require 'pry'
+
 songs = [
   "Phoenix - 1901",
   "Tokyo Police Club - Wait Up",
@@ -34,7 +36,9 @@ end
 def play(songs)
   puts "Please enter a song name or number:"
   user_response = gets.strip
+  
   if user_response == list(song) || list(index)
+    binding.pry
     puts "Playing #{song}"
   else
     puts "Invalid input, please try again"
