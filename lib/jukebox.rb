@@ -43,3 +43,13 @@ def play(songs)
     puts "Invalid input, please try again"
   end
 end
+
+def exit_jukbox
+  puts "Goodbye"
+end
+
+def run 
+  puts "Please enter a command:"
+  input = gets.strip
+  
+end
