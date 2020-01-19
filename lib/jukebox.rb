@@ -53,14 +53,14 @@ end
 def run(songs)
   command = "" 
   while command  
-  puts "Please enter a command:"
+  puts "Please enter a song name or number:"
   command = gets.strip  
   
   case command 
     when 'list'
       list(songs)
       when 'play'
-        list(songs)
+        
         play(songs)
       when 'help'
         help 
