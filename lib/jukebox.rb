@@ -46,7 +46,7 @@ def play(songs)
   end 
 end 
 
-def exit_jukbox
+def exit_jukebox
   puts "Goodbye"
 end
 
