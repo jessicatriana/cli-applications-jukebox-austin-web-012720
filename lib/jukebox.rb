@@ -38,8 +38,9 @@ def play(songs)
   user_response = gets.strip
   
   if user_response == list(song) || list(index)
-    binding.pry
+   
     puts "Playing #{song}"
+     binding.pry
   else
     puts "Invalid input, please try again"
   end
