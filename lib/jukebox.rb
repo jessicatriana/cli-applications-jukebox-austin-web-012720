@@ -53,7 +53,7 @@ end
 def run(songs)
   command = "" 
   while command  
-  puts "Please enter a commande:"
+  puts "Please enter a command:"
   command = gets.strip  
   
   case command 
